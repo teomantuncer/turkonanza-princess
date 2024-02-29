@@ -173,7 +173,7 @@ class Symbol {
 			this.img = cache[name].cloneNode();
 		} else {
 			this.img = new Image();
-			this.img.src = `../assets/symbols/${name}.png`;
+			this.img.src = `./assets/symbols/${name}.png`;
 
 			cache[name] = this.img;
 		}
